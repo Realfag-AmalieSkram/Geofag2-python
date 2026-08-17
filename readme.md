@@ -1,1 +1,1 @@
-Oppskrift for installering av miniconda og jupyter lab
+Oppskrift for installering av miniconda og jupyter lab, med eksempel fra Geofag 2

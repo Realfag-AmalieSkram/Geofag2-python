@@ -1,16 +1,39 @@
 ---
 title: "Installere og åpne Jupyter Lab"
+subtitle: "Geofag 2 · Python-oppsett"
+lang: nb
+date: 2026-08-17
+date-format: "D. MMMM YYYY"
 format: 
-    html:
-        embed-resources: true
-        output-file: "index.html"
+  html:
+    embed-resources: true
+    output-file: "index.html"
+    # theme: [litera, geofag2-styles.scss]
+    include-in-header: geofag2-fonts.html
+    title-block-banner: true
+    toc: true
+    toc-title: "Innhold"
+    toc-depth: 2
+    smooth-scroll: true
+    code-copy: true
+    code-block-bg: true
+  pdf:
+    output-file: "guide-miniforge.pdf"
+    include-in-header: geofag2-pdf-colors.tex
+    colorlinks: true
+    linkcolor: tealwave
+    urlcolor: ambersunset
+    citecolor: tealwave
 ---
 En kort guide for å installere og åpne Jupyter Lab med Miniforge.
 
 ::: {.callout-tip collapse="true"}
 ## Guiden på 1-2-3
+
 [1) Installere Miniforge](#installere)
+
 [2) Lage et miljø med Jupyter Lab og viktige pakker](#miljo)
+
 [3) Åpne og kjøre](#aapne)
 :::
 
@@ -26,14 +49,20 @@ Miniforge laster du ned [her](https://conda-forge.org/download/).
 ## Viktig
 
 Velg fila som passer til maskinen din:
+
 -   **Windows:** `Miniforge3-Windows-x86_64.exe`
+
 -   **Mac med Apple-brikke (M1, M2, M3, M4):** `Miniforge3-MacOSX-arm64.pkg`
+
 -   **Mac med Intel:** `Miniforge3-MacOSX-x86_64.pkg`
+
 Er du usikker på hva slags Mac du har? Klikk på eplet øverst til venstre → «Om denne datamaskinen» → se på linja «Brikke» eller «Prosessor».
+
 ![](img/laste-ned-v2.png){fig-align="center"}
 :::
 
 Når du har lastet ned fila:
+
 -   åpne nedlastinger og klikk på fila
 -   følg installasjonsveiledningen
 -   på Windows: la det stå kryss ved **«Create start menu shortcuts»**
