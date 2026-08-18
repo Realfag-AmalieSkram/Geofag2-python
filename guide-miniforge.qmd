@@ -4,12 +4,13 @@ subtitle: "Geofag 2 · Python-oppsett"
 lang: nb
 date: 2026-08-17
 date-format: "D. MMMM YYYY"
+author:
+  - "Torodd Ottestad"
+  - "Elisabeth Engum"
 format: 
   html:
     embed-resources: true
     output-file: "index.html"
-    # theme: [litera, geofag2-styles.scss]
-    include-in-header: geofag2-fonts.html
     title-block-banner: true
     toc: true
     toc-title: "Innhold"
@@ -91,7 +92,7 @@ conda create -n geofag2 python=3.12 jupyterlab numpy matplotlib pandas scipy ipy
 **OBS:** dette er et forslag, du kan legge til eller trekke fra pakker etter behov. 
 Når programmet har tenkt seg om (av og til ganske lenge) får du opp `Proceed ([y]/n)?`. Trykk {{< kbd Enter >}} for å fortsette.
 
-Nå har vi laget et *miljø* (et rotterom) der vi har installert alt vi trenger. Blir det kluss, eller vi trenger andre pakker og programmer i andre fag, kan vi lage nye miljø.
+Nå har vi laget et *miljø* (et roterom) der vi har installert alt vi trenger. Blir det kluss, eller vi trenger andre pakker og programmer i andre fag, kan vi lage nye miljø.
 
 ## 3️⃣ Åpne og kjøre {#aapne}
 
